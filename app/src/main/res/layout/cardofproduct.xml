@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="158dp"
+    android:layout_height="229dp"
+    android:layout_margin="16dp"
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/productImg"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+
+                tools:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/productImg"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/producttitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:text="Peter Parker" />
+
+                <TextView
+                    android:id="@+id/descreption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:alpha=".7"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    tools:text="Spider Man" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    tools:text="Spider Man" />
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/heart"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="100dp"-->
+<!--                    android:layout_marginBottom="16dp"-->
+<!--                    android:src="@drawable/heart" />-->
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

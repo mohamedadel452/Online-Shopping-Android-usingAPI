@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalproject_intern">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.FinalProject_intern"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Alljewlaryactivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Allelctronecproduct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Allwomenproduct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Allmenproduct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.productjawelersactivete"
+            android:exported="false" />
+        <activity
+            android:name=".ui.productelctronesactivety"
+            android:exported="false" />
+        <activity
+            android:name=".ui.productwomenactivety"
+            android:exported="false" />
+        <activity
+            android:name=".ui.productmenactivety"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Catagoryes"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Notivigation"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Chart"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Home"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Succsessful"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Login"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".ui.afterSignin"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginAndSignup"
+            android:exported="false" />
+        <activity
+            android:name=".ui.wellcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
